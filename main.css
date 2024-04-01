@@ -198,7 +198,8 @@ body
 
     width: 100%;
     height: 100%;
-
+    
+    background-image: url("whitecoin.png");
     opacity: 0.3;
     background-repeat: no-repeat;
     background-position: center;
