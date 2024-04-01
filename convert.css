@@ -1,0 +1,25 @@
+#main {
+
+animation: backgroundAnimate 60s linear infinite;
+
+background-image: url("../img/background.gif");
+background-attachment: fixed;
+background-position: 0 center;
+background-size: auto 110%;
+margin-right: 20%;
+}
+
+
+.sup1 { color: white; font-size: 35px; position: absolute; margin-left: 50px; margin-top: 100px;}
+.sup1 span { display: block; opacity: 0; animation: reveal 0.5s forwards var(--d);} @keyframes reveal { from { transform: translater(20px);} to { opacity: 1; transform: none;}}
+
+.buthelp1 { background-color: #6d7295; border: none; border-radius: 6px; margin-left: 50px; margin-top: 600px; padding: 15px 30px 15px 30px;}
+.buthelp1:hover { background-color: #31344b; border-radius: 4px; transform: scale(0.90);}
+
+
+
+html, head, body, #main
+{
+    width: 100%;
+    min-height: 100vh;
+}
