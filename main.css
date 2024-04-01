@@ -48,7 +48,7 @@ body
 {
     animation: backgroundAnimate 60s linear infinite;
 
-    background-image: url("background.gif");
+    background-color: #2b2b2b;
     background-attachment: fixed;
     background-position: 0 center;
     background-size: auto 110%;
