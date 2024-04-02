@@ -182,7 +182,7 @@ body
 
     cursor: pointer;
 
-    background-image: url("whitecoin.png");
+    background-color: white;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
