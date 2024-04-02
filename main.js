@@ -103,11 +103,11 @@ class Bonus
 
 // (name, cost, factor, id, automate~)
 let one = new Bonus('Улучшить клик', 50000, 0.1, 'one', false, (localStorage.getItem('one')) ? parseInt(localStorage.getItem('one')) : 0);
-let one1 = new Bonus('Автоматическая добывалка', 150000, 1, 'two', true, (localStorage.getItem('one')) ? parseInt(localStorage.getItem('one')) : 0);
+let two = new Bonus('Автоматическая добывалка', 150000, 1, 'two', true, (localStorage.getItem('two')) ? parseInt(localStorage.getItem('two')) : 0);
 
 
 one.listener();
-one1.listener();
+two.listener();
 
 
 function saveMain() {
