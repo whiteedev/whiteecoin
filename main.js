@@ -1,4 +1,4 @@
-let counter = (localStorage.getItem('counter')) ? parseInt(localStorage.getItem('counter')) : 5000;
+let counter = (localStorage.getItem('counter')) ? parseInt(localStorage.getItem('counter')) : 0;
 let factor  = 1;
 let background = 0;
 
